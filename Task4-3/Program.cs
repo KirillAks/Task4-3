@@ -27,7 +27,7 @@ namespace Task4_3
                 b -= c;
                 counterB += counterA;
             }            
-            Console.WriteLine(counterB);
+            Console.WriteLine("Количество квадратов в прямоугольнике равно {0}", counterB);
             Console.ReadKey();
         }
     }
